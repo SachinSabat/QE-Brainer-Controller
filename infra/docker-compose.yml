@@ -1,0 +1,36 @@
+version: '3.8'
+services:
+  mysql_mcp:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: qe_brain_poc
+    ports:
+      - "3306:3306"
+
+  filesystem_mcp:
+    image: minio/minio
+    command: server /data
+    environment:
+      MINIO_ROOT_USER: admin
+      MINIO_ROOT_PASSWORD: password
+    ports:
+      - "9000:9000"
+
+  excel_mcp:
+    image: nginx:latest
+    ports:
+      - "8082:80"
+
+  zenturacp:
+    image: kennethreitz/httpbin
+    ports:
+      - "8083:80"
+
+  orchestrator:
+    build: ../orchestrator
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mysql_mcp
+      - filesystem_mcp

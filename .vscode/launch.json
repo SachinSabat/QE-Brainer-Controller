@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Orchestrator",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/orchestrator/main.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

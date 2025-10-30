@@ -1,0 +1,29 @@
+# === QE Brain Controller - Phase 0 PoC ===
+# Core Framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.1
+
+# Data Handling
+pydantic==2.9.0
+python-dotenv==1.0.1
+requests==2.32.3
+PyYAML==6.0.2
+
+# Logging & Monitoring
+loguru==0.7.2
+
+# Optional MCP/REST Integrations
+httpx==0.27.0
+aiohttp==3.10.3
+
+# Development Utilities
+black==24.8.0
+isort==5.13.2
+
+# For Test Data Agent (future DB work)
+mysql-connector-python==9.0.0
+Faker==26.1.0
+
+# For unit testing (later stages)
+pytest==8.3.2
+pytest-asyncio==0.23.8

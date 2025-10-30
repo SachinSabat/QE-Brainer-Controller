@@ -1,0 +1,4 @@
+{
+  "python.defaultInterpreterPath": "orchestrator/.venv/bin/python",
+  "python.formatting.provider": "black"
+}

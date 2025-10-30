@@ -11,8 +11,6 @@
 - Integrates **Playwright**, **Karate**, and **WebdriverIO** for cross-platform testing.
 - Uses **MCP servers** for DB seeding, filesystem storage, and data export/import.
 
-This project is the **Phase-0 PoC** of the larger QE Brain vision, focusing on the **Logon journey**.
-
 ---
 
 ## 🧩 Core Concept
@@ -49,8 +47,6 @@ QE-Brainer-Controller/
 │ └── POC_RUNBOOK.md
 ├── demo.sh # End-to-end PoC script
 └── README.md
-
-
 ---
 
 ## 🧰 Quick Start

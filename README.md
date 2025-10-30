@@ -26,7 +26,7 @@
 
 ---
 
-### 1️⃣ Clone & Open
+1️⃣ Clone & Open
 ```bash
 git clone https://github.com/SachinSabat/QE-Brainer-Controller.git
 cd QE-Brainer-Controller

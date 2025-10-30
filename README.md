@@ -26,8 +26,8 @@
 
 ---
 
-1️⃣ Clone & Open
-bash
+### 1️⃣ Clone & Open
+```bash
 git clone https://github.com/SachinSabat/QE-Brainer-Controller.git
 cd QE-Brainer-Controller
 code .
@@ -42,11 +42,12 @@ Docker & Docker Compose
 
 VS Code Extensions: Python, Docker, YAML, GitLens
 
-3️⃣ Start Infrastructure
+3️⃣ Start Infrastructurecd infra
 cd infra
 docker-compose up -d
 
 4️⃣ Run the Demo
 bash demo.sh
+
 
 

@@ -26,9 +26,7 @@
 
 ---
 
-## 🧰 Quick Start
-
-### 1️⃣ Clone & Open
+1️⃣ Clone & Open
 ```bash
 git clone https://github.com/SachinSabat/QE-Brainer-Controller.git
 cd QE-Brainer-Controller
@@ -51,16 +49,4 @@ docker-compose up -d
 4️⃣ Run the Demo
 bash demo.sh
 
-
-This will:
-
-Launch MCP servers & orchestrator
-
-Generate 10 logon test cases
-
-Seed data in MySQL MCP
-
-Run Playwright & Karate tests
-
-Store artifacts in filesystem MCP
 

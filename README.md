@@ -26,29 +26,6 @@
 
 ---
 
----
-
-## 🏗️ Folder Structure
-
-QE-Brainer-Controller/
-├── orchestrator/ # FastAPI QE Brain Orchestrator
-├── agents/ # AI & Data Agents
-│ ├── tcg/ # Test Case Generator
-│ ├── tdg/ # Test Data Generator
-│ ├── planner/ # Test Planner
-│ └── review/ # Human-in-loop agent
-├── runners/ # Playwright / Karate / WebdriverIO tests
-├── infra/ # MCP infra + fixtures
-│ └── docker-compose.yml
-├── ci/ # GitHub Actions workflow
-│ └── github-actions.yml
-├── docs/
-│ ├── SETUP_GUIDE.md
-│ └── POC_RUNBOOK.md
-├── demo.sh # End-to-end PoC script
-└── README.md
----
-
 ## 🧰 Quick Start
 
 ### 1️⃣ Clone & Open
